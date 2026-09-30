@@ -1,0 +1,37 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/.svelte-kit/
+
+# Large training data (2.5 GB, far over GitHub's 100 MB limit)
+augmented_train_qt.csv
+data/
+
+# Old git history kept locally as a backup
+.git_old_history/
+
+# Scratch output and one-off dev scripts (not needed to run the app)
+status.txt
+/App.svelte
+patch_svelte_frauds.py
+patch_svelte_safely.py
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+.git
+.git_old_history
+.venv
+__pycache__
+.env
+augmented_train_qt.csv
+frontend/node_modules
+frontend/dist
+status.txt

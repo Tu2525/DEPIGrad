@@ -40,8 +40,8 @@ Threshold used: 0.5305 (same file).
 You need Python 3.11+ (tested on 3.13) and Node 20+.
 
 ```bash
-git clone https://github.com/Tu2525/depigrad.git
-cd depigrad
+git clone https://github.com/Tu2525/DEPIGrad.git
+cd DEPIGrad
 
 # Backend
 python -m venv .venv

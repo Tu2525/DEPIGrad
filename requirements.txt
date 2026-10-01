@@ -1,10 +1,10 @@
-fastapi
-uvicorn
-scikit-learn
-shap
-lightgbm
+fastapi==0.139.0
+uvicorn==0.50.0
+numpy==2.4.6
+joblib==1.5.3
+# scikit-learn and xgboost match the versions the .pkl files were saved with
+scikit-learn==1.6.1
 xgboost==3.0.5
-pydantic
-python-multipart
-google-genai
-python-dotenv
+shap==0.52.0
+google-genai==2.10.0
+python-dotenv==1.2.2
